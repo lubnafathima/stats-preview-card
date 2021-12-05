@@ -108,7 +108,7 @@ body {
         text-align: center;
         padding: 0;
         background-color: var(--Dark-desaturated-blue);
-        width: 100%;
+        width: 100vw;
     }
     .left-top-head {
         font-size: 1.1rem;
