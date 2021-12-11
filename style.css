@@ -25,7 +25,7 @@ body {
     background-color: var(--Very-dark-blue);
 }
 .container {
-    width: 80%;
+    min-width: 80%;
     height: 60%;
     background-color: var(--Dark-desaturated-blue);
     border-radius: 10px;
@@ -83,7 +83,8 @@ body {
     padding: 1% 0 0 0;
 }
 .cont-right {
-    min-height:100%;
+    min-width: fit-content;
+    min-height:80%;
     background:linear-gradient(0deg, rgba(129, 36, 187, 0.5), rgba(110, 36, 187, 0.5)), url(images/image-header-desktop.jpg);
     background-size:cover;
     background-repeat: no-repeat;
@@ -109,7 +110,6 @@ body {
         text-align: center;
         padding: 0;
         background-color: var(--Dark-desaturated-blue);
-        width: 100vw;
     }
     .left-top-head {
         font-size: 1.1rem;
